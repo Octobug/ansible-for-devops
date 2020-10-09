@@ -1,2 +1,5 @@
 # vagrant local files
 .vagrant
+
+# macOS files
+.DS_Store
