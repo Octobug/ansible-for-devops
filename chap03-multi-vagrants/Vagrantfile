@@ -13,6 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.linked_clone = true
     # macOS might encounter microphone relative crashing
     v.customize ["modifyvm", :id, "--audioin", "off"]
+    v.customize ["modifyvm", :id, "--audio", "none"]
   end
 
   # Application server 1.
